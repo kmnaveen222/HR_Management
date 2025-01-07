@@ -1,0 +1,179 @@
+:root{
+--red:red;
+--blue:#2D5D9A;
+--dark-blue:rgb(48,61,96);
+--light-blue:#E7F3FF;
+--grey:#555;
+--black:#180f0f;
+--white:white;
+/* background:linear-gradient(45deg,#2D5D9A,#E7F3FF); */
+
+/* ------------font----------- */
+--raleway:"Raleway";
+}
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* background-color: var(--light-blue); */
+  background: linear-gradient(45deg,var(--white),var(--light-blue));
+}
+
+.container-image{
+  width: 45%;
+}
+.container-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 1.0); */
+  align-items: center;
+  width: 40%;
+  padding: 40px 0px;
+}
+/* ---------------login name start----------------- */
+.container-name{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: var(--raleway);
+  /* color: var(--grey); */
+  padding: 20px;
+  background: -webkit-linear-gradient(45deg, var(--blue),var(--dark-blue));
+    background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+.container-name1{
+  font-size: 18px;
+  font-family: var(--raleway);
+  font-weight: 500px;
+}
+/* ---------------login name end----------------- */
+
+
+/* ---------------login input box start----------------- */
+
+.data-container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+ text-align: center;
+  flex-direction: column;
+  
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+.input-container label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--raleway);
+  padding: 5px 50px;
+  color: var(--black);
+  /* pointer-event:none; */
+  transition: all 0.5s ease-in-out;
+}
+
+.input-container input {
+  position: relative;
+  border: 0;
+  border-bottom: 2px solid var(--grey);
+  background: transparent;
+  width: 80%;
+  padding: 10px 0 8px 10px;
+  font-size: 18px;
+  color: var(--black);
+}
+
+.input-container input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--blue);
+}
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+  top: -20px;
+  font-size: 15px;
+}
+.input-container .eye-icon{
+  position: absolute;
+  right: 50px;
+  font-size: 25px;
+}
+
+/* forgot password start */
+.forgot-password{
+  font-size: 17px;
+  padding: 10px;
+  font-family: var(--raleway);
+  
+}
+.forgot-password .Fpass{
+  text-decoration: none;
+  color: var(--black);
+
+}
+.forgot-password .Fpass:hover{
+  text-decoration: underline;
+  color: var(--dark-blue);
+}
+/* forgot password end */
+
+/* ---------login button start--------- */
+.login-button{
+  padding: 10px 0px;
+}
+.login-button button{
+padding: 15px;
+width: 80%;
+border: none;
+border-radius: 14px;
+font-size: 17px;
+font-weight: 500;
+font-family: var(--raleway);
+color: var(--white);
+transition: all 0.6s ease;
+
+/* background-color:var(--blue) */
+background:linear-gradient(45deg, var(--blue),var(--dark-blue));
+}
+.login-button button:hover{
+  transform: scale(1.1);
+
+}
+/* ---------login button end--------- */
+
+/* sign-up page start */
+.create-account{
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--raleway);
+}
+.create-account .createAccountLink{
+  text-decoration: none;
+  color: var(--blue);
+}
+.create-account .createAccountLink:hover{
+  text-decoration: underline;
+  color: var(--dark-blue);
+}
+
+/* sign-up page end */
+/* ---------------login input box end----------------- */

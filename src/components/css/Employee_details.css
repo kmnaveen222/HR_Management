@@ -1,0 +1,85 @@
+:root{
+    --red:red;
+    --blue:#2D5D9A;
+    --dark-blue:rgb(48,61,96);
+    --light-blue:#E7F3FF;
+    --grey:#555;
+    --light-grey:rgb(200, 200, 200);
+    --black:#180f0f;
+    --white:white;
+    
+    /* ------------font----------- */
+    --raleway:"Raleway";
+    --poppins:"Poppins";
+    }
+
+.emp-container{
+    display: flex;
+    background-color: var(--light-blue);
+
+}
+
+/* -----table title start------- */
+
+.emp-detail .emp-title{
+    font-family: var(--raleway);
+    font-size: 35px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, var(--blue),var(--white));
+    background-clip:text;
+  -webkit-text-fill-color: transparent;
+  padding: 30px 0;
+}
+/* -----table title end------- */
+/* -----table start------- */
+
+.emp-detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    width: 80%;
+
+}
+
+.emp-detail table,tr th,td{
+   text-align: start;
+    border-bottom: 3px solid var(--light-blue);
+    border-collapse: collapse;
+    padding: 15px 0px 15px 30px;
+    
+    
+}
+.emp-detail table{
+    background-color: var(--white);
+    box-shadow: 0px 2px 10px var(--light-grey);
+
+}
+
+/* .emp-detail table, table tr{
+    
+    border-radius: 20px;
+}   */
+
+
+.emp-detail table tr td{
+    
+    font-family: var(--poppins);
+}
+.emp-detail table tr:hover{
+    box-shadow: 0px 2px 10px var(--light-grey);
+}
+/* table tr:nth-child(odd) {
+    background-color: var(--light-blue);
+    
+} */
+table tr:nth-child(1) {
+    
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--white);
+    font-family: var(--raleway);
+    background:linear-gradient(45deg, var(--blue), var(--dark-blue));
+  
+}
+/* -----table end------- */

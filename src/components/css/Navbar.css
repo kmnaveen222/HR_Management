@@ -1,0 +1,85 @@
+:root{
+    --red:red;
+    --blue:#2D5D9A;
+    --dark-blue:rgb(48,61,96);
+    --light-blue:#E7F3FF;
+    --grey:#555;
+    --black:#180f0f;
+    --white:white;
+    
+    /* ------------font----------- */
+    --raleway:"Raleway";
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.nav-container1{
+ 
+    height: 100vh;
+    background-color: var(--dark-blue);
+    box-shadow: 0px 2px 10px var(--light-grey);
+
+    /* color: var(--white); */
+    /* padding: 10px 30px; */
+    /* max-width: 50%; */
+    
+}
+
+/* --top nav bar start-- */
+
+/* --top nav bar end-- */
+
+
+/* --title start-- */
+
+.nav-title{
+    font-size: 25px;
+    padding: 20px 30px;
+    font-weight: 800;
+    font-family: var(--raleway);
+    background: -webkit-linear-gradient(45deg, var(--blue),var(--white));
+    background-clip:text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* --title end-- */
+
+/* --navigation item start-- */
+.nav-item{
+
+display: flex;
+flex-direction: column;
+
+
+}
+.nav-item .nav-component{
+
+    font-size: 20px;
+    padding: 20px 30px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item .nav-link .nav-component:hover{
+    
+  color: var(--dark-blue);
+
+    background-color: var(--white);
+    /* border-radius: 0px 40px 40px 0px; */
+}
+
+/* .nav-item .nav-link :active{
+    background-color: var(--white);
+} */
+
+.nav-item .nav-link {
+    color: var(--white);
+    font-family: var(--raleway);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+/* --navigation item end-- */
