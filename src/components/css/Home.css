@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+:root {
+    font-family:'Raleway';
+}
+.home_page
+{
+display: flex;
+flex-direction: column;
+max-width: 164.3%;
+/* width: 164.3%; */
+/* height: 300vh; */
+background-color: #E7F3FF;
+}
+
+ 
+ /* HOME NAV */
+
+
+.home_nav{
+height: 50px;
+margin-top:5px;
+/* background-color: rgb(255, 106, 0); */
+display: flex;
+/* border: 1px solid black; */
+z-index: 999;
+position: sticky;
+top:0px;
+}
+.home_nav_1,.home_nav_2,.home_nav_3
+{
+    /* border: 1px solid black; */
+    /* height: 30px; */
+    width:50%;
+}
+.home_nav_1
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home_nav_3_btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-around;
+    height: 35px;
+}
+.homepg_icon
+{
+padding-left: 25px;
+padding-top: 10px;
+font-size: 35px;
+/* color: #327900; */
+/* 
+background: linear-gradient(red, blue);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+#p_title
+{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 800;
+    font-size: 18px;
+}
+/* .home_nav_3
+{
+    /* display: flex;
+    justify-content:center; 
+} */
+.home_nav_3_btn
+{
+    margin-top: 12px;
+    margin-left: 230px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 23px; 
+    padding-bottom: 23px; 
+    background-color: #5296ee;
+    color: white;
+    font-size: 16px;
+    font-weight:650;
+    border-radius: 40px;
+    border-style: none;
+    /* box-shadow: #000000; */
+    transition:all 0.2s ease-out;
+    cursor: pointer;
+  
+   
+ 
+}
+.home_nav_3_btn:hover
+{
+    background-color: rgb(48,61,96);
+    color: white;
+    transform: scale(1.05);
+   
+}
+.getStart{
+    text-decoration: none;
+}
+.login_icon
+{
+font-size:23px;
+padding-right: 5px;
+}
+
+ /* HOME CONTENT */
+
+.home_content
+{
+    /* border: 2px solid rgb(31, 219, 6); */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size:35px;
+    font-weight: 700;
+    height: 521px;
+    overflow: hidden;
+    
+}
+.logo
+{
+    /* border: 1px solid black; */
+    max-width: 50%;
+    /* max-height: 70%; */
+}
+#hm_cnt1{
+    height: 93vh;
+}
+#hm_cnt3,#hm_cnt2
+{
+    height:100vh;
+}
+#hm_cnt2
+{
+    /* background-color: #2D5D9A; */
+    background:linear-gradient(45deg,#2D5D9A,#E7F3FF);
+    color: aliceblue;
+}
+#hm_cnt1>div,#hm_cnt3>div
+{
+padding-right: 40px;
+}
+#hm_cnt2>div
+{
+padding-left: 20px; 
+}
