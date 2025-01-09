@@ -39,12 +39,12 @@ export const Home = () => {
           />
           <div data-aos="fade-left">
             “Leaders who don’t listen will eventually be surrounded by people
-            who have nothing to say.”{" "}
+            who have nothing to say.”
           </div>
         </div>
         <div className="home_content" id="hm_cnt2">
           <div data-aos="fade-right">
-            {" "}
+            
             “Accepted that we all are human resources, but we are humans first
             and resources later.”
           </div>
@@ -64,7 +64,7 @@ export const Home = () => {
           />
           <div data-aos="flip-up">
             “Human Resource isn’t a thing we do; it’s the thing that runs our
-            business.”{" "}
+            business.”
           </div>
         </div>
       </div>

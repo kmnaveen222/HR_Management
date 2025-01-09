@@ -1,5 +1,7 @@
 :root{
-    --red:red;
+    --red:rgb(198, 6, 6);
+    --green:green;
+    --dark-green:rgb(1, 75, 1);
     --blue:#2D5D9A;
     --dark-blue:rgb(48,61,96);
     --light-blue:#E7F3FF;
@@ -16,8 +18,10 @@
 .emp-container{
     display: flex;
     background-color: var(--light-blue);
+  
 
 }
+
 
 /* -----table title start------- */
 
@@ -28,17 +32,58 @@
     background: -webkit-linear-gradient(45deg, var(--blue),var(--white));
     background-clip:text;
   -webkit-text-fill-color: transparent;
-  padding: 30px 0;
+  padding: 20px 0 30px 0;
 }
 /* -----table title end------- */
+
+/* --------new emp add button start---------- */
+.newRecord{
+padding-bottom: 30px;
+}
+.newRecord .newRecordButton{
+    position: relative;
+border: none;
+color: var(--white);
+font-family: var(--poppins);
+font-weight: 600;
+font-size: 17px;
+padding: 10px 20px;
+border-radius: 5px;
+background-color: var(--green);
+overflow: hidden;
+transition: transform  0.5s ease-in-out;
+z-index: 1;
+}
+.newRecord .newRecordButton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-blue); /* Replace with your desired hover color */
+    transition: left 0.4s ease-in-out;
+    transform:scale3d(40deg) ;
+    z-index: -1;
+  }
+.newRecord .newRecordButton:hover{
+transform: scale(1.05);
+
+}
+.newRecord .newRecordButton:hover::before {
+    left: 0;
+  }
+/* --------new emp add button end---------- */
+
+
 /* -----table start------- */
 
 .emp-detail{
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    /* margin-top: 5px; */
     padding: 20px;
-    width: 80%;
+    width: 77%;
 
 }
 
@@ -74,12 +119,27 @@
     
 } */
 table tr:nth-child(1) {
-    
+    text-align: center;
     font-size: 17px;
     font-weight: 300;
     color: var(--white);
     font-family: var(--raleway);
     background:linear-gradient(45deg, var(--blue), var(--dark-blue));
   
+}
+.recordDelete{
+    color: var(--red);
+}
+.recordDelete, .recordEdit{
+    border: none; 
+    background-color: var(--white);
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.recordDelete:hover, .recordEdit:hover{
+   
+transform: scale(1.1);
 }
 /* -----table end------- */

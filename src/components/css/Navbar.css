@@ -17,15 +17,13 @@
     /* overflow: hidden; */
 }
 
+
 .nav-container1{
  
     height: 100vh;
     background-color: var(--dark-blue);
     box-shadow: 0px 2px 10px var(--light-grey);
-
-    /* color: var(--white); */
-    /* padding: 10px 30px; */
-    /* max-width: 50%; */
+    
     
 }
 
@@ -59,21 +57,21 @@ flex-direction: column;
 }
 .nav-item .nav-component{
 
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px 30px;
     transition: all 0.3s ease-in-out;
 }
 .nav-item .nav-link .nav-component:hover{
     
   color: var(--dark-blue);
-
     background-color: var(--white);
     /* border-radius: 0px 40px 40px 0px; */
 }
-
-/* .nav-item .nav-link :active{
+.nav-link.active .nav-component {
+    color: var(--dark-blue);
     background-color: var(--white);
-} */
+  }
+
 
 .nav-item .nav-link {
     color: var(--white);
@@ -82,4 +80,13 @@ flex-direction: column;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
+
+/* icons */
+.profileimg{
+    position: relative;
+    top:3px;
+    font-size: 18px;
+   padding-right: 15px;
+}
+
 /* --navigation item end-- */

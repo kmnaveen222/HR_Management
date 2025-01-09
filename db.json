@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "c01f",
+      "name": "neufer",
+      "email": "neufer2001@gmail.com",
+      "password": "neufer",
+      "confirm_password": "neufer"
+    },
+    {
+      "id": "37fb",
+      "name": "naveen",
+      "email": "kmnaveen222@gmail.com",
+      "password": "naveen",
+      "confirm_password": "naveen"
+    }
+  ],
+  "employeeDetail": [
+    {
+      "id": "37db",
+      "name": "Naveen",
+      "email": "naveen@gamil.com",
+      "address": "abc",
+      "phone_number": "7200434524",
+      "emergency_phone_number": "7200434524",
+      "doj": "01-07-2024",
+      "dob": "01-10-2000",
+      "role": "software developer",
+      "department": "IT"
+    },
+    {
+      "id": "34ab",
+      "name": "Naveen",
+      "email": "naveen@gamil.com",
+      "address": "abc",
+      "phone_number": "7200434524",
+      "emergency_phone_number": "7200434524",
+      "doj": "01-07-2024",
+      "dob": "01-10-2000",
+      "role": "software developer",
+      "department": "IT"
+    }
+  ]
+}

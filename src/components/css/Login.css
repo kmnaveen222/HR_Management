@@ -116,6 +116,11 @@
   right: 50px;
   font-size: 25px;
 }
+.errormess{
+  color: var(--red);
+  margin: 10px 0;
+  
+}
 
 /* forgot password start */
 .forgot-password{

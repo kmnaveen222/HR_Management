@@ -145,11 +145,14 @@ padding-right: 5px;
     background:linear-gradient(45deg,#2D5D9A,#E7F3FF);
     color: aliceblue;
 }
+
 #hm_cnt1>div,#hm_cnt3>div
 {
+    color: rgb(48,61,96);
 padding-right: 40px;
 }
 #hm_cnt2>div
 {
+    /* color: rgb(48,61,96); */
 padding-left: 20px; 
 }
